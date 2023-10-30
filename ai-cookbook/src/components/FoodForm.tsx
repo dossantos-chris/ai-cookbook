@@ -8,7 +8,7 @@ const FoodForm = () => {
         e.preventDefault();
         console.log(food);
     }
-    
+
     return (
     <div className="w-1/3 bg-white p-6 rounded-lg">
         <h1 className="text-2xl font-bold mb-4">Generate a Recipe</h1>
@@ -25,9 +25,9 @@ const FoodForm = () => {
           <div>
             <button className="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600">Submit</button>
           </div>
-        </form> 
+        </form>
       </div>
-  )
+    )
 }
 
 export default FoodForm
