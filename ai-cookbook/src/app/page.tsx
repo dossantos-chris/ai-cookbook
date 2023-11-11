@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-300">
       <Header/>
-      <div className="flex flex-col items-center justify-center pt-8">
+      <div className="flex flex-col items-center">
         <FoodForm/>
       </div>
     </main>
